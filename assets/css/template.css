@@ -59,6 +59,9 @@ body {
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   color: #444;
+  /* Texturized background */
+  background-color: #fff;
+  background-image: url("/img/texturized-background.png");
 }
 
 
