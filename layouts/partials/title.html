@@ -1,7 +1,7 @@
 <hgroup id="brand">
 	<!-- Homepage -->
 	{{- if eq .Kind "home" -}}
-	<h1>{{ .Site.Title }}</h1>
+	<h1><img alt="Site logo" src="/assets/logo.svg" width="32" height="32" class="logo"/> {{ .Site.Title }}</h1>
 	<h5>{{- with .Site.Params.Tagline -}}{{.}}{{- end -}}</h5>
 	<!-- Section List -->
 	{{- else if ( or ( eq .Kind "section") ( eq .Kind "taxonomyTerm" ) ) -}}
